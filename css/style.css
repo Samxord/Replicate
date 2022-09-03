@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: montserrat;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 80px 8px 30px;
+    background-color: rgb(77, 154, 172);
+}
+@media screen and (max-width:600px){
+     .navbar{
+        padding-left: 10px
+     }
+}
+.navbar img{
+    max-width: 8%;
+}
+@media screen and (max-width:600px){
+    .navbar img{
+        max-width: 30%;
+    }
+}
+#icon{
+    color: white;
+    font-size: 30px;
+    line-height: 80px;
+    float: right;
+    margin-right: 3px;
+    cursor: pointer;
+    display: none;
+}
+@media screen and (max-width:600px){
+    #icon{
+        display: block;
+        position: absolute;
+        left: 90%;
+    }
+}
+ul li{
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    top: 20px;
+    align-content: space-between;
+    padding: 0 20px;
+}
+@media screen and (max-width:600px){
+    ul{
+        position: absolute;
+        width: 90%;
+        height: 80vh;
+        background-color: #233;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all.5s;
+        z-index: 1000;
+    }
+}
+@media screen and (max-width:600px){
+    ul.show{
+        left: 0;
+    }
+}
+@media screen and (max-width:600px){
+    ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+        font-size: 20px;
+    }
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+ul li a.active,a:hover{
+    border: 1px solid white;
+    transition: .5s;
+}
+
+.photo{
+    max-width: 40%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+}
+@media screen and (max-width:600px){
+    .photo{
+        max-width: 100%;
+        padding: 30px;
+    }
+}
+.photo img{
+    max-width: 30%;
+    border-radius: 100%;
+}
+h1{
+    font-size: 30px;
+    color: rgb(77, 154, 172);
+}
+
+@media screen and (max-width:600px){
+    h1{
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:600px){
+    .me{
+        font-size: 10px;
+    }
+}
+@media screen and (max-width:600px){
+    .location{
+        font-size: 12px;
+    }
+}
+.container{
+    background-color: rgb(19, 114, 147);
+    padding: 80px 300px 80px 20px;
+    margin: 30px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+@media screen and (max-width:600px){
+    .container{
+        display: block;
+        box-sizing: border-box;
+    }
+}
+.design{
+    color: white;
+}
+@media screen and (max-width:600px){
+    .design{
+        margin: 5px 1px 10px;
+        width: 20rem;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+.design h3{
+    margin-bottom: 30px;
+}
+@media screen and (max-width:600px){
+    .query{
+        margin: 40px 5px 10px;
+        width: 20rem;
+        font-size: 14px;
+        text-align: center;
+    }
+}
+.query-2{
+    color: white;
+    margin-bottom: 30px;
+}
+.query-3{
+color: white;
+margin-bottom: 10px;
+}
+.query-4{
+    color: white;
+    /* color: rgb(50, 74, 80); */
+}
+.services{
+    padding: 50px 20px;
+}
+h4{
+    color: rgb(77, 154, 172);
+}
+.design-container{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+@media screen and (max-width:600px){
+    .design-container{
+        display: block;
+    }
+}
+.fashion-design{
+    background-color: rgb(50, 74, 80);
+    text-align: center;
+    padding: 20px 1px;
+    color: white;
+    margin-right: 30px;
+}
+.fashion-1{
+    margin-bottom: 15px;
+}
+.fashion-2{
+    font-size: 12px;
+    padding: 0 20px;
+}
+.web-design{
+    background-color: rgb(50, 74, 80);
+    text-align: center;
+    padding: 20px 0px;
+    color: white;
+    margin-right: 30px;
+    box-sizing: border-box;
+    width: 25%;
+}
+@media screen and (max-width:600px){
+    .web-design{
+        width: 91%;
+        padding: 10px;
+        margin: 20px 0px;
+    }
+}
+.web-1{
+    margin-bottom: 15px;
+}
+.web-2{
+    font-size: 12px;
+}
+.graphic-design{
+    background-color: rgb(50, 74, 80);
+    text-align: center;
+    padding: 20px 8px;
+    color: white;
+    margin-right: 30px;
+}
+@media screen and (max-width:600px){
+    .graphic-design{
+        margin: 20px 0px;
+        width: 91%;
+    }
+}
+.graphic-1{
+    margin-bottom: 15px;
+}
+.graphic-2{
+    font-size: 12px;
+}
+.video-animation{
+    background-color: rgb(50, 74, 80);
+    text-align: center;
+    padding: 20px 8px;
+    color: white;
+    margin-right: 30px;
+}
+.video-1{
+    margin-bottom: 15px;
+}
+.video-2{
+    font-size: 12px;
+}
+.footer{
+    margin-top: 40px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(19, 114, 147);
+}
+.prompt-2{ 
+    margin-bottom: 15px;
+    color: white;
+}
+.email{
+    color: white;   
+}
+.social-icons{
+    color: black;
+    margin: 20px;
+}
+.social-icons i{
+   padding: 5px;
+    font-size: 18px;
+}
